@@ -1,8 +1,5 @@
-from multiprocessing import resource_tracker
-
 import streamlit as st
 import joblib
-from sympy.vector import vector
 
 #################load
 @st.cache_resource
